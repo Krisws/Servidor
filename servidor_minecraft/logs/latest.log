@@ -1,0 +1,228 @@
+[20Jul2025 03:21:07.408] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Jul2025 03:21:07.412] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[20Jul2025 03:21:07.941] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Jul2025 03:21:08.014] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Jul2025 03:21:08.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Servidor/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[20Jul2025 03:21:08.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[20Jul2025 03:21:08.334] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20Jul2025 03:21:08.335] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20Jul2025 03:21:08.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20Jul2025 03:21:08.679] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20Jul2025 03:21:08.680] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[20Jul2025 03:21:11.039] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Jul2025 03:21:11.220] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[20Jul2025 03:21:11.222] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[20Jul2025 03:21:11.224] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Jul2025 03:21:11.370] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.0+mc1.20.1: 96 options available, 1 override(s) found
+[20Jul2025 03:21:11.371] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[20Jul2025 03:21:11.372] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Jul2025 03:21:11.406] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Jul2025 03:21:11.524] [main/WARN] [mixin/]: Reference map 'carryonextend.refmap.json' for carryonextend.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jul2025 03:21:12.444] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[20Jul2025 03:21:12.562] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[20Jul2025 03:21:12.563] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[20Jul2025 03:21:12.563] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[20Jul2025 03:21:12.565] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[20Jul2025 03:21:12.565] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[20Jul2025 03:21:12.566] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[20Jul2025 03:21:12.567] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[20Jul2025 03:21:12.568] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[20Jul2025 03:21:12.668] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20Jul2025 03:21:13.167] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.953 s after launch)
+[20Jul2025 03:21:13.290] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Jul2025 03:21:13.291] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Jul2025 03:21:13.397] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Jul2025 03:21:13.397] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Jul2025 03:21:14.529] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1358 milliseconds
+[20Jul2025 03:21:17.700] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Registering server started event...
+[20Jul2025 03:21:17.846] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:178]: curiosIntegration not found in the [common.backpackSettings] section.
+[20Jul2025 03:21:18.083] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[20Jul2025 03:21:18.084] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[20Jul2025 03:21:18.176] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[20Jul2025 03:21:18.176] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[20Jul2025 03:21:18.189] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Cached update file detected, using that!
+[20Jul2025 03:21:18.712] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Booting... (platform: Forge, manual: false)
+[20Jul2025 03:21:18.712] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Found Mixin library. (version: 0.8.5)
+[20Jul2025 03:21:18.712] [modloading-worker-0/INFO] [Ksyxis/]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (0 ms)
+[20Jul2025 03:21:18.730] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loading config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[20Jul2025 03:21:18.736] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Built config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[20Jul2025 03:21:18.737] [modloading-worker-0/INFO] [com.dannyboythomas.hole_filler_mod.HoleFillerMod/]: Loaded config:/workspaces/Servidor/servidor_minecraft/config/hole_filler_mod.toml
+[20Jul2025 03:21:18.873] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[20Jul2025 03:21:20.589] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: Found block type with duplicate id (minecraft:oak), skipping
+[20Jul2025 03:21:21.849] [modloading-worker-0/INFO] [dynamiclights/]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[20Jul2025 03:21:21.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Starting version check at https://api.modrinth.com/updates/7YjclEGc/forge_updates.json
+[20Jul2025 03:21:22.020] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[20Jul2025 03:21:22.021] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[20Jul2025 03:21:22.023] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[20Jul2025 03:21:22.023] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[20Jul2025 03:21:22.059] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[20Jul2025 03:21:22.059] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[20Jul2025 03:21:22.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[20Jul2025 03:21:22.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[20Jul2025 03:21:22.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[20Jul2025 03:21:22.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[20Jul2025 03:21:22.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[20Jul2025 03:21:22.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[20Jul2025 03:21:22.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[20Jul2025 03:21:22.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamiclights] Found status: OUTDATED Current: 1.8.2+mod Target: 1.8.6+mod
+[20Jul2025 03:21:22.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[20Jul2025 03:21:22.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.39 Target: null
+[20Jul2025 03:21:22.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Jul2025 03:21:22.181] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20Jul2025 03:21:22.206] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20Jul2025 03:21:22.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[20Jul2025 03:21:22.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[20Jul2025 03:21:22.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.3 Target: null
+[20Jul2025 03:21:22.296] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[20Jul2025 03:21:22.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[20Jul2025 03:21:22.307] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[20Jul2025 03:21:22.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[20Jul2025 03:21:22.526] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20Jul2025 03:21:22.532] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[20Jul2025 03:21:22.533] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20Jul2025 03:21:22.543] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20Jul2025 03:21:22.547] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20Jul2025 03:21:23.156] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Jul2025 03:21:23.263] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Jul2025 03:21:23.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_1_spawn_egg Expected: 3135 Got: 3762
+[20Jul2025 03:21:23.411] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_2_spawn_egg Expected: 3136 Got: 3763
+[20Jul2025 03:21:23.412] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_3_spawn_egg Expected: 3137 Got: 3764
+[20Jul2025 03:21:23.412] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_4_spawn_egg Expected: 3138 Got: 3765
+[20Jul2025 03:21:23.413] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_1_spawn_egg Expected: 3139 Got: 3766
+[20Jul2025 03:21:23.413] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_2_spawn_egg Expected: 3140 Got: 3767
+[20Jul2025 03:21:23.413] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_3_spawn_egg Expected: 3141 Got: 3768
+[20Jul2025 03:21:23.413] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_4_spawn_egg Expected: 3142 Got: 3769
+[20Jul2025 03:21:23.414] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_5_spawn_egg Expected: 3143 Got: 3770
+[20Jul2025 03:21:23.414] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_6_spawn_egg Expected: 3144 Got: 3771
+[20Jul2025 03:21:23.414] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_6_spawn_egg Expected: 3145 Got: 3772
+[20Jul2025 03:21:23.415] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_5_spawn_egg Expected: 3146 Got: 3773
+[20Jul2025 03:21:23.415] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_7_spawn_egg Expected: 3147 Got: 3774
+[20Jul2025 03:21:23.416] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_7_spawn_egg Expected: 3148 Got: 3775
+[20Jul2025 03:21:23.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_6spectral_spawn_egg Expected: 3149 Got: 3776
+[20Jul2025 03:21:23.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_6spectral_spawn_egg Expected: 3150 Got: 3777
+[20Jul2025 03:21:23.417] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_8_spawn_egg Expected: 3151 Got: 3778
+[20Jul2025 03:21:23.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_8_spawn_egg Expected: 3152 Got: 3779
+[20Jul2025 03:21:23.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_9_spawn_egg Expected: 3153 Got: 3780
+[20Jul2025 03:21:23.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_9_spawn_egg Expected: 3154 Got: 3781
+[20Jul2025 03:21:23.418] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_10_spawn_egg Expected: 3155 Got: 3782
+[20Jul2025 03:21:23.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_10_spawn_egg Expected: 3156 Got: 3783
+[20Jul2025 03:21:23.419] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_11_spawn_egg Expected: 3157 Got: 3784
+[20Jul2025 03:21:23.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_11_spawn_egg Expected: 3158 Got: 3785
+[20Jul2025 03:21:23.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_12_spawn_egg Expected: 3159 Got: 3786
+[20Jul2025 03:21:23.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_12_spawn_egg Expected: 3160 Got: 3787
+[20Jul2025 03:21:23.421] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_13_slime_spawn_egg Expected: 3161 Got: 3788
+[20Jul2025 03:21:23.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_13_magma_slime_spawn_egg Expected: 3162 Got: 3789
+[20Jul2025 03:21:23.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_13_slime_spawn_egg Expected: 3163 Got: 3790
+[20Jul2025 03:21:23.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_13_magma_slime_spawn_egg Expected: 3164 Got: 3791
+[20Jul2025 03:21:23.422] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_14_spawn_egg Expected: 3165 Got: 3792
+[20Jul2025 03:21:23.423] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_14_spawn_egg Expected: 3166 Got: 3793
+[20Jul2025 03:21:23.423] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: corpsebutbetter:curios_inventory Expected: 3167 Got: 3794
+[20Jul2025 03:21:23.429] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_1 Expected: 172 Got: 280
+[20Jul2025 03:21:23.430] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_2 Expected: 173 Got: 281
+[20Jul2025 03:21:23.430] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_3 Expected: 174 Got: 282
+[20Jul2025 03:21:23.431] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_4 Expected: 175 Got: 283
+[20Jul2025 03:21:23.431] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_1 Expected: 176 Got: 284
+[20Jul2025 03:21:23.433] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_2 Expected: 177 Got: 285
+[20Jul2025 03:21:23.434] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_3 Expected: 178 Got: 286
+[20Jul2025 03:21:23.434] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_4 Expected: 179 Got: 287
+[20Jul2025 03:21:23.434] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_5 Expected: 180 Got: 288
+[20Jul2025 03:21:23.435] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_6 Expected: 181 Got: 289
+[20Jul2025 03:21:23.435] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_6 Expected: 182 Got: 290
+[20Jul2025 03:21:23.436] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_5 Expected: 183 Got: 291
+[20Jul2025 03:21:23.436] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_7 Expected: 184 Got: 292
+[20Jul2025 03:21:23.436] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_7 Expected: 185 Got: 293
+[20Jul2025 03:21:23.437] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_6spectral Expected: 186 Got: 294
+[20Jul2025 03:21:23.437] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_6spectral Expected: 187 Got: 295
+[20Jul2025 03:21:23.437] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_8 Expected: 188 Got: 296
+[20Jul2025 03:21:23.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_8 Expected: 189 Got: 297
+[20Jul2025 03:21:23.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_9 Expected: 190 Got: 298
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_9 Expected: 191 Got: 299
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_10 Expected: 192 Got: 300
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_10 Expected: 193 Got: 301
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_11 Expected: 194 Got: 302
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_11 Expected: 195 Got: 303
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_12 Expected: 196 Got: 304
+[20Jul2025 03:21:23.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_12 Expected: 197 Got: 305
+[20Jul2025 03:21:23.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_13_slime Expected: 198 Got: 306
+[20Jul2025 03:21:23.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_13_magma_slime Expected: 199 Got: 307
+[20Jul2025 03:21:23.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_13_slime Expected: 200 Got: 308
+[20Jul2025 03:21:23.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_13_magma_slime Expected: 201 Got: 309
+[20Jul2025 03:21:23.441] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:skeletonpose_14 Expected: 202 Got: 310
+[20Jul2025 03:21:23.442] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: corpsebutbetter:witherskeletonpose_14 Expected: 203 Got: 311
+[20Jul2025 03:21:23.606] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[20Jul2025 03:21:23.606] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[20Jul2025 03:21:26.834] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/Servidor/servidor_minecraft/tacz
+[20Jul2025 03:21:26.836] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[20Jul2025 03:21:26.836] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[20Jul2025 03:21:27.052] [main/INFO] [PFM-DataGen/]: Data Hash for Game Data and Variant List matched, skipping generation
+[20Jul2025 03:21:30.060] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Jul2025 03:21:30.060] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Jul2025 03:21:30.060] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[20Jul2025 03:21:30.177] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+[20Jul2025 03:21:30.187] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[20Jul2025 03:21:30.305] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2001 advancements
+[20Jul2025 03:21:30.431] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[20Jul2025 03:21:30.435] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[20Jul2025 03:21:30.487] [main/WARN] [ModernFix/]: Initial datapack load took 6.842 s
+[20Jul2025 03:21:30.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Jul2025 03:21:30.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Jul2025 03:21:30.738] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Jul2025 03:21:30.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Jul2025 03:21:30.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Jul2025 03:21:30.851] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Jul2025 03:21:30.961] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Jul2025 03:21:30.961] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Jul2025 03:21:30.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Jul2025 03:21:30.962] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Jul2025 03:21:30.996] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
+[20Jul2025 03:21:31.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Jul2025 03:21:31.471] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[20Jul2025 03:21:31.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Jul2025 03:21:31.589] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 117 ms
+[20Jul2025 03:21:31.590] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.612s)! For help, type "help"
+[20Jul2025 03:21:31.621] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Jul2025 03:21:31.625] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.413 seconds to load
+[20Jul2025 03:22:03.332] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@b0cd824[id=<null>,name=Otaku6063,properties={},legacy=false] (/172.22.42.121:59127) lost connection: Disconnected
+[20Jul2025 03:22:53.027] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@d019688[id=<null>,name=Otaku6063,properties={},legacy=false] (/172.22.42.121:59128) lost connection: Disconnected
+[20Jul2025 03:23:04.227] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1ed075fe[id=<null>,name=Otaku6063,properties={},legacy=false] (/172.22.42.121:59134) lost connection: Disconnected
+[20Jul2025 03:24:19.777] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@63282d0a[id=<null>,name=Otaku6063,properties={},legacy=false] (/172.22.42.121:59175) lost connection: Disconnected
+[20Jul2025 03:25:40.877] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2fcda15b[id=<null>,name=Otaku6063,properties={},legacy=false] (/172.22.42.121:59224) lost connection: Disconnected
+[20Jul2025 03:27:49.238] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[20Jul2025 03:27:49.402] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Otaku6063[/172.22.42.121:59280] logged in with entity id 1 at (10.5, 66.0, 2.5)
+[20Jul2025 03:27:49.459] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Otaku6063
+[20Jul2025 03:27:49.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 joined the game
+[20Jul2025 03:27:49.532] [Server thread/INFO] [Jade/]: Syncing config to Otaku6063 (25f1de13-4001-3ca5-9353-f2b93d25a972)
+[20Jul2025 03:28:14.913] [Worker-Main-8/INFO] [ModernFix/]: Instantiating Mojang DFU
+[20Jul2025 03:28:36.122] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2995ms or 59 ticks behind
+[20Jul2025 03:35:06.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Otaku6063: Set own game mode to Creative Mode]
+[20Jul2025 03:35:36.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Otaku6063: Set own game mode to Survival Mode]
+[20Jul2025 03:36:20.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Stone Age]
+[20Jul2025 03:40:13.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Getting an Upgrade]
+[20Jul2025 03:48:23.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Monster Hunter]
+[20Jul2025 03:57:25.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Sweet Dreams]
+[20Jul2025 03:58:24.234] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/7918, l='ServerLevel[world]', x=195.37, y=63.50, z=-294.28] died, message: 'Unemployed suffocated in a wall'
+[20Jul2025 04:00:03.065] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=17, y=66, z=-211} BlockPos{x=17, y=66, z=-210}
+[20Jul2025 04:02:00.192] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=105, y=68, z=-321} BlockPos{x=104, y=66, z=-320}
+[20Jul2025 04:02:19.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=111, y=68, z=-318} BlockPos{x=111, y=66, z=-316}
+[20Jul2025 04:29:16.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Doppelganger Hunter]
+[20Jul2025 04:29:21.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has reached the goal [The Doppelganger]
+[20Jul2025 04:38:11.545] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-242, y=80, z=-386} BlockPos{x=-241, y=80, z=-386}
+[20Jul2025 04:42:15.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 has made the advancement [Acquire Hardware]
+[20Jul2025 04:48:24.833] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Otaku6063 lost connection: Disconnected
+[20Jul2025 04:48:24.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Otaku6063 left the game
+[20Jul2025 04:48:34.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Jul2025 04:48:34.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Jul2025 04:48:34.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Jul2025 04:48:34.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Jul2025 04:48:34.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Jul2025 04:48:35.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Jul2025 04:48:35.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Jul2025 04:48:35.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_doppelganger:subworld
+[20Jul2025 04:48:35.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mofus_better_end_:broken_constellation
+[20Jul2025 04:48:35.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Jul2025 04:48:35.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Jul2025 04:48:35.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Jul2025 04:48:35.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
+[20Jul2025 04:48:35.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (broken_constellation): All chunks are saved
+[20Jul2025 04:48:35.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Jul2025 04:48:35.082] [Server thread/INFO] [net.petemc.mutantszombies.MutantsZombies/]: Loading mutantszombies server config
